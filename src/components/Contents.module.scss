@@ -26,7 +26,6 @@ h4 {
 
 .talkWrapper {
 	margin-top: 20px;
-	height: 250px;
 }
 
 .imageWrapper {
@@ -37,7 +36,8 @@ h4 {
 }
 
 @include mobile {
-.talkWrapper {}
+.talkWrapper {
+}
 
 	.imageWrapper {
 		width: auto;
@@ -58,6 +58,7 @@ h4 {
 @include laptop {
 .talkWrapper {
 		display: flex;
+	height: 250px;
 	}
 
 	.imageWrapper {
@@ -69,6 +70,7 @@ h4 {
 @include desktop {
 .talkWrapper {
 		display: flex;
+	height: 250px;
 	}
 	.imageWrapper {
 		width: auto;
