@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "gh-pages": "^6.2.0",
     "html-react-parser": "^5.1.18",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -20,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-		"predeploy": "yarn build",
-		"deploy": "gh-pages -d build"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-	"homepage": "https://koreavis.github.io/"
+  "homepage": "https://koreavis.github.io/"
 }
