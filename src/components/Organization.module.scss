@@ -1,0 +1,24 @@
+@import "../globalStyle.scss";
+
+img {
+	width: 80%;
+
+
+
+}
+
+.sponsorWrapper {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.footer {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}

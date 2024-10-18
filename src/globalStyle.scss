@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+$regular: 400;
+$medium: 500;
+$bold: 600;
+
+$smallFontSize: 1rem;
+$bigFontSize: 2.3 * $smallFontSize;
+$middleFontSize: 1.5 * $smallFontSize;
+$normalFontSize: 1.2 * $smallFontSize;
+
+$breakpoint-tablet: 720px;
+$breakpoint-laptop: 1024px;
+$breakpoint-desktop: 1800px;
+
+$mainColor: rgb(88, 86,214);
+$darkColor: rgb(54,52, 163);
+$lightColor: rgb(125, 122, 255);
+
+body {
+	// use Quicksand for english and pretendard for korean
+	font-family: 'Quicksand', 'Pretendard', sans-serif;
+
+	margin: auto;
+	background-color: #ffffff;
+}
+
+
+@mixin mobile {
+	@media (max-width: #{$breakpoint-tablet - 1px}) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-laptop - 1px}) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media (min-width: #{$breakpoint-laptop}) and (max-width: #{$breakpoint-desktop - 1px}) {
+		@content;
+	}
+}
+
+
+@mixin desktop {
+	@media (min-width: #{$breakpoint-desktop}) {
+		@content;
+	}
+}
+
+@include mobile {
+	body {
+		width: 85%;
+	}
+}
+
+@include tablet {
+	body {
+		width: 70%;
+	}
+}
+
+@include laptop {
+	body {
+		width: 65%;
+	}
+}
+
+@include desktop {
+	body {
+		width: 55%;
+	}
+}
+
+h2 {
+	font-weight: $medium;
+}
+
+
+h3 {
+	font-weight: $medium;
+}
+
+h4 { 
+	font-weight: $medium;	
+}

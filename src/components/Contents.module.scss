@@ -1,0 +1,96 @@
+@import "../globalStyle.scss";
+
+h2 {
+	margin-top: 40px;
+	font-weight: 700;
+}
+
+.titleWrapper {
+	font-weight: 600;
+}
+
+.timeWrapper {
+	color: #666666;
+}
+
+
+h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+.contentWrapper {
+	margin-bottom: 30px;
+}
+
+.talkWrapper {
+	margin-top: 20px;
+	height: 250px;
+}
+
+.imageWrapper {
+  // make the image height to be smae to the height of the parent div
+	margin-right: 20px;
+	border-radius: 100%;
+	// make 
+}
+
+@include mobile {
+.talkWrapper {}
+
+	.imageWrapper {
+		width: auto;
+		height: 200px;
+	}
+}
+
+@include tablet {
+.talkWrapper {
+	}
+
+	.imageWrapper {
+		width: auto;
+		height: 200px;
+	}
+}
+
+@include laptop {
+.talkWrapper {
+		display: flex;
+	}
+
+	.imageWrapper {
+		width: auto;
+		height: 90%;
+	}
+}
+
+@include desktop {
+.talkWrapper {
+		display: flex;
+	}
+	.imageWrapper {
+		width: auto;
+		height: 90%;
+	}
+}
+
+.paperWrapper {
+	margin-top: 25px;
+
+	p {
+		margin-top: 0px;
+		margin-bottom: 4px;
+		font-size: 0.9rem;
+	}
+
+	b {
+		font-weight: 500;
+	}
+
+	h4 {
+		color: $darkColor;
+	}
+
+}

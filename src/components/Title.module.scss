@@ -1,0 +1,38 @@
+@import "../globalStyle.scss";
+
+.mainTitleWrapper {
+	display: flex;
+	// make the h1 and h3 inside it to be bottom-aligned
+	align-items: flex-end;
+
+}
+
+.cityWrapper {
+	margin-left: 15px;
+}
+
+.dateTimeWrapper {
+	margin-top: 12px;
+	font-weight: $regular;
+}
+
+h1 {
+	color: $darkColor;
+}
+
+h2 {
+	color: $darkColor;
+}
+
+h3 {
+	margin-top: 0px;
+	color: black;
+	margin-bottom: 5px;
+	font-weight: $regular;
+}
+
+
+.titleImage {
+	width: 100%;
+	margin-top: 30px;
+}
