@@ -14,8 +14,8 @@
   presenter_affiliation: Google
   start: "1:10 pm"
   end: "2:10 pm"
-  talk_title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-  talk_abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id pellentesque ligula, eget maximus lacus. Suspendisse ut interdum risus. Donec vitae diam nibh. Vestibulum ac quam pharetra, mattis ligula eget, congue risus. Sed ullamcorper consequat nunc, vel ullamcorper leo varius ac. Suspendisse sed mollis quam. Ut id tempor est. Nunc vitae mi libero.Maecenas pretium auctor dui, sit amet varius tortor interdum in. Donec et justo et neque commodo aliquam et nec nibh. Etiam imperdiet nunc metus, nec vehicula odio hendrerit faucibus. Maecenas ultrices, nibh quis porta commodo, lacus sapien faucibus elit, at placerat dui tortor in risus. Proin at ante eros. Mauris id arcu pulvinar, tincidunt nisi a, ultrices tortor. Sed erat libero, pellentesque non viverra eu, mollis vitae elit."
+  talk_title: TBA 
+  talk_abstract: TBA
   talk_speaker_image: "./assets/imgs/minsuk.jpg"
 - title: "Session 1: Layout and Dimensionality Reduction"
   presenter: "Session chair: Hyunwook Lee"
