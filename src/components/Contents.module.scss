@@ -57,20 +57,18 @@ h4 {
 
 @include laptop {
 .talkWrapper {
-		display: flex;
-	height: 250px;
 	}
 
 	.imageWrapper {
 		width: auto;
-		height: 90%;
+		height: 200px;
 	}
 }
 
 @include desktop {
 .talkWrapper {
 		display: flex;
-	height: 250px;
+	height: 350px;
 	}
 	.imageWrapper {
 		width: auto;

@@ -33,6 +33,9 @@ const Contents = (props) => {
 								{content.talk_abstract === undefined ? null :
 									<p>{"Abstract—"}{content.talk_abstract}</p>
 								}
+								{content.talk_bio === undefined ? null :
+									<p>{"Bio—"}{content.talk_bio}</p>
+								}
 							</div>
 						</div>}
 						{content.papers === undefined ? null : content.papers.map((paper, paperIndex) => {
