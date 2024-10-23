@@ -46,13 +46,13 @@
   start: "3:50 pm"
   end: "4:40 pm"
   papers:
-  - title: "HyPockeTuner: A Mobile Hyperparameter Optimization System"
-    authors: "Donghee Hong, Bongshin Lee, Jinwook Seo, and Jaemin Jo"
+  - title: "ViSTrics: A Visual Analytics Tool for Software Testing"
+    authors: "Donghee Hong and Jaemin Jo"
     presenter: Donghee Hong
     presenter_affiliation: "Sungkyunkwan University"
   - title: "DG Comics: Semi-Automatically Authoring Graph Comics for Dynamic Graphs"
-    authors: "Joohee Kim, Hyunwook Lee, Duc M. Nguyen, Minjeong Shin, Bum Chul Kwon, and Niklas Elmqvist"
-    presenter: Joohee Kim
+    authors: "Joohee Kim, Hyunwook Lee, Duc M. Nguyen, Minjeong Shin, Bum Chul Kwon, Sungahn Ko, and Niklas Elmqvist"
+    presenter: Hyunwook Lee
     presenter_affiliation: "UNIST"
   - title: "Fields, Bridges, and Foundations: How Researchers Browse Citation Network Visualizations"
     authors: "Kiroong Choe, Eunhye Kim, Sangwon Park, and Jinwook Seo"
