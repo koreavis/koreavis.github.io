@@ -1,0 +1,11 @@
+sponsor_img: "./assets/imgs/kvis_2025_sponsor.png"
+sponsor_size: "50%"
+host: "POSTECH HAiV"
+chair: "Sungahn Ko, POSTECH"
+organizers: 
+  - Hyunwook Lee, POSTECH
+  - Sungbok Shin, INRIA, Université Paris-Saclay
+  - Hyeon Jeon, Seoul National University
+contact:
+  email: "Sungahn Ko (sungahn at postech dot ac dot kr)"
+footer: Copyright © 2024 Hyeon Jeon

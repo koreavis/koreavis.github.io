@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/759.030277e0.chunk.css","mappings":"AAQA,MACC,aARW","sources":["theme/2025.scss"],"sourcesContent":["$mainColor: rgb(214, 86, 107);\n$darkColor: rgb(163, 52, 96);\n$lightColor: rgb(255, 122, 191);\n\nh1 {\n\tcolor: $darkColor;\n}\n\nh2 {\n\tcolor: $darkColor;\n}\n\n\n"],"names":[],"sourceRoot":""}
