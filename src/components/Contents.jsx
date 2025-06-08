@@ -22,9 +22,11 @@ const Contents = (props) => {
 			{contents.map((content, index) => {
 				return (
 					<div key={index} className={styles.contentWrapper}>
-						<h3 className={styles.titleWrapper}>{content.title}</h3>
-						<h4>{content.presenter + ", " +  content.presenter_affiliation}</h4>
-						<h4 className={styles.timeWrapper}>{content.start + " - " + content.end }</h4>
+						<h3 className={styles.titleWrapper}>{
+							content.title === undefined ? null : content.title
+						}</h3>
+						<h4>{(content.presenter === undefined ? "" : content.presenter) + (content.presenter_affiliation === undefined ? "" : ", " + content.presenter_affiliation)}</h4>
+						<h4 className={styles.timeWrapper}>{content.start === undefined ? "" : content.start + " - " + content.end }</h4>
 						{content.talk_title === undefined ? null : 
 						<div className={styles.talkWrapper}>
 							<img src={content.talk_speaker_image} alt={content.talk_title} className={styles.imageWrapper}/>

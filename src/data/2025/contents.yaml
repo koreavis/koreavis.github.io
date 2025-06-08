@@ -1,0 +1,96 @@
+# title, presenter, presenter_affiliation,start, end --> these fields are mandatory
+- title: Opening Remarks and Greetings
+  presenter: Sungahn Ko
+  presenter_affiliation: POSTECH
+  # start: TBA
+  # end: TBA
+# - title: Workshop Introduction
+#   presenter: Hyeon Jeon
+#   presenter_affiliation: Seoul National University
+#   start: "1:05 pm"
+#   end: "1:10 pm"
+- title: Keynote
+  presenter: TBA
+  # presenter_affiliation: TBA
+  # start: "1:10 pm"
+  # end: "2:10 pm"
+  # talk_title: Visual Analytics for Responsible Development of LLMs
+  # talk_abstract: "How can visual analytics help practitioners develop large language models (LLMs) more responsibly? While large tech companies invest heavily in LLMs, such as GPT and Gemini, ensuring these models do not produce unsafe, biased, or problematic outputs remains a significant challenge. In this talk, I will discuss how visual analytics can help address these problems, drawing from my experience working with teams at Google. I will reflect on the role of visualization researchers in AI development and outline future research directions to interactively enhance the quality of text and multimodal datasets."
+  # talk_bio: "Minsuk Kahng is a Senior Research Scientist at Google in the People + AI Research (PAIR) team. His research focuses on empowering researchers and practitioners to responsibly develop AI systems through interactive data visualization. His work has led to deployed technologies (e.g., LLM Comparator for Google, ActiVis for Facebook) and been recognized by prestigious awards (e.g., Google PhD Fellowship, NSF Graduate Research Fellowship). Prior to Google, he was an Assistant Professor at Oregon State University. He received his Ph.D. from Georgia Tech with a Dissertation Award and received his Master's and Bachelor's degrees from Seoul National University. Website: https://minsuk.com"
+  # talk_speaker_image: "./assets/imgs/minsuk.jpg"
+- title: "Paper Presentations"
+  presenter: "TBA"
+  # presenter_affiliation: "UNIST"
+  # start: "2:30 pm"
+  # end: "3:20 pm"
+#   papers:
+#   - title: "GhostUMAP: Measuring Pointwise Instability in Dimensionality Reduction"
+#     authors: "Myeongwon Jung, Takanori Fujiwara, and Jaemin Jo"
+#     presenter: Myeongwon Jung
+#     presenter_affiliation: Sungkyunkwan University
+#   - title: "Towards More Explainable Nonlinear Dimensionality Reduction: A Feature-Driven Interactive Approach"
+#     authors: "Aeri Cho, Hyeon Jeon, Kiroong Choe, Seokhyeon Park, and Jinwook Seo"
+#     presenter: Aeri Cho
+#     presenter_affiliation: Seoul National University
+#   - title: "MoNetExplorer: A Visual Analytics System for Analyzing Dynamic Networks with Temporal Network Motifs"
+#     authors: Seokweon Jung, DongHwa Shin, Hyeon Jeon, Kiroong Choe, and Jinwook Seo
+#     presenter: Seokweon Jung
+#     presenter_affiliation: Seoul National University
+#   - title: Stop Overtrusting t-SNE and UMAP for Visual Analytics
+#     authors: Hyeon Jeon, Jeongin Park, Sungbok Shin, and Jinwook Seo
+#     presenter: Hyeon Jeon
+#     presenter_affiliation: Seoul National University
+# - title: "Session 2: Information Visualization and Machine Learning"
+#   presenter: "Session chair: Sangbong Yoo"
+#   presenter_affiliation: "Sejong University"
+#   start: "3:50 pm"
+#   end: "4:40 pm"
+#   papers:
+#   - title: "ViSTrics: A Visual Analytics Tool for Software Testing"
+#     authors: "Donghee Hong and Jaemin Jo"
+#     presenter: Donghee Hong
+#     presenter_affiliation: "Sungkyunkwan University"
+#   - title: "DG Comics: Semi-Automatically Authoring Graph Comics for Dynamic Graphs"
+#     authors: "Joohee Kim, Hyunwook Lee, Duc M. Nguyen, Minjeong Shin, Bum Chul Kwon, Sungahn Ko, and Niklas Elmqvist"
+#     presenter: Hyunwook Lee
+#     presenter_affiliation: "UNIST"
+#   - title: "Fields, Bridges, and Foundations: How Researchers Browse Citation Network Visualizations"
+#     authors: "Kiroong Choe, Eunhye Kim, Sangwon Park, and Jinwook Seo"
+#     presenter: Kiroong Choe
+#     presenter_affiliation: "Seoul National University"
+#   - title: "LIMEVis: Interactive Visualization System for LIME Analysis"
+#     authors: "Jeongmin Rhee, Changhee Lee, DongHwa Shin, and Bohyoung Kim"
+#     presenter: Jeongmin Rhee
+#     presenter_affiliation: "Hankuk University of Foreign Studies"
+# - title: "Session 3: Foundation Models for Visualizations"
+#   presenter: "Session chair: Dae Hyun Kim"
+#   presenter_affiliation: "KAIST"
+#   start: "5:10 pm"
+#   end: "6:00 pm"
+#   papers:
+#   - title: "PhenoFlow: A Human-LLM Driven Visual Analytics System for Exploring Large and Complex Stroke Datasets"
+#     authors: "Jaeyoung Kim, Sihyeon Lee, Hyeon Jeon, Keonjoo Lee, Bohyoung Kim, Heejoon Bae, and Jinwook Seo"
+#     presenter: Jaeyoung Kim
+#     presenter_affiliation: "Seoul National University"
+#   - title: "Bavisitter: Integrating Design Guidelines into Large Language Models for Visualization Authoring"
+#     authors: "Jiwon Choi, Jaeung Lee, and Jaemin Jo"
+#     presenter: Jiwon Choi
+#     presenter_affiliation: "Sungkyunkwan University"
+#   - title: "Enhancing Data Literacy On-demand: LLMs as Guides for Novices in Chart Interpretation"
+#     authors: "Kiroong Choe, Chaerin Lee, Soohyun Lee, Jiwon Song, Aeri Cho, Nam Wook Kim, and Jinwook Seo"
+#     presenter: Kiroong Choe
+#     presenter_affiliation: "Seoul National University"
+#   - title: "Assessing Graphical Perception of Image Embedding Models using Channel Effectiveness"
+#     authors: "Soohyun Lee, Minsuk Chang, Seokhyeon Park, and Jinwook Seo"
+#     presenter: Seokhyeon Park
+#     presenter_affiliation: "Seoul National University"
+# - title: Workshop Closing
+#   presenter: Jiwon Choi
+#   presenter_affiliation: Sungkyunkwan University
+#   start: "6:00 pm"
+#   end: "6:05 pm"
+- title: Banquet
+  presenter: TBA
+  # presenter_affiliation: Computer Research Institute
+  # start: "6:05 pm"
+  # end: "8:00 pm"

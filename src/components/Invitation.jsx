@@ -24,7 +24,14 @@ const Invitation = (props) => {
 		<div className={styles.invitationWrapper}>
 			<h3 className={styles.invitationOpening}>{contents.opening}</h3>
 			<p>{parse(contents.message)}</p>
-			<p>{"Registration: "}<a href={contents.registration}>Click the link!!</a></p>
+			{contents.links === undefined ? <></> : contents.links.map((link, index) => {
+				return (
+					<p key={index}>
+						<b>{link.title + ": "}</b><a href={link.link}>{link.holder}</a>
+						{link.description === undefined ? <></> : <span className={styles.desc}><br/>{link.description}</span>}
+					</p>
+				)
+			})}
 		</div>
 	);
 }

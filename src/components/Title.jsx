@@ -25,7 +25,7 @@ const Title = (props) => {
 				<h1>{metadata.title}</h1>
 				<h2 className={styles.cityWrapper}>{metadata.city}</h2>
 			</div>
-			<h3>{metadata.venue}</h3>
+			<h3 className={styles.venue}>{metadata.venue}</h3>
 			<h3>{metadata.venue_korean}</h3>
 			<h3 className={styles.dateTimeWrapper}>{metadata.date + ", " + metadata.time}</h3>
 			<img src={metadata.title_img} className={styles.titleImage}/>

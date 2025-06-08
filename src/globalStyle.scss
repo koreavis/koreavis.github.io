@@ -2,6 +2,8 @@
 
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
+
+
 $regular: 400;
 $medium: 500;
 $bold: 600;
@@ -15,9 +17,6 @@ $breakpoint-tablet: 720px;
 $breakpoint-laptop: 1024px;
 $breakpoint-desktop: 1800px;
 
-$mainColor: rgb(88, 86,214);
-$darkColor: rgb(54,52, 163);
-$lightColor: rgb(125, 122, 255);
 
 body {
 	// use Quicksand for english and pretendard for korean
@@ -84,8 +83,13 @@ h2 {
 
 h3 {
 	font-weight: $medium;
+	margin-top: 1.5rem;
 }
 
 h4 { 
 	font-weight: $medium;	
+}
+
+.titleWrapper {
+	font-weight: 600;
 }

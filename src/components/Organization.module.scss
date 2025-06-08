@@ -1,11 +1,6 @@
 @import "../globalStyle.scss";
 
-img {
-	width: 80%;
 
-
-
-}
 
 .sponsorWrapper {
 	justify-content: center;
@@ -16,9 +11,13 @@ img {
 
 
 .footer {
-	margin-top: 70px;
+	margin-top: 5px;
 	margin-bottom: 70px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
+}
+
+.host {
+	margin-top: 40px;
 }
