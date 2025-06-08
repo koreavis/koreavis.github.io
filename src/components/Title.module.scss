@@ -1,15 +1,58 @@
 @import "../globalStyle.scss";
 
 .mainTitleWrapper {
-	display: flex;
+
 	// make the h1 and h3 inside it to be bottom-aligned
 	align-items: flex-end;
 
 }
 
-.cityWrapper {
-	margin-left: 15px;
+@include mobile {
+	.mainTitleWrapper {
+		display: block;
+
+	}
+	h1 {
+		margin-bottom: 0px;
+	}
+	.cityWrapper {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
 }
+
+@include tablet {
+	.mainTitleWrapper {
+			display: block;
+	}
+		h1 {
+			margin-bottom: 0px;
+		}
+	.cityWrapper {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+}
+
+@include laptop {
+	.mainTitleWrapper {
+			display: flex;
+	}
+	.cityWrapper {
+		margin-left: 15px;
+	}
+}
+
+@include desktop {
+	.mainTitleWrapper {
+			display: flex;
+	}
+	.cityWrapper {
+		margin-left: 15px;
+	}
+}
+
+
 
 .dateTimeWrapper {
 	margin-top: 12px;
