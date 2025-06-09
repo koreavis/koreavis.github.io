@@ -17,18 +17,10 @@ function App() {
 	
 	useEffect(() => {
 		console.log(year);
-		if (year === undefined) {
+		if (year !== "2024" && year !== "2025") {
 			// should change to the current year
-			navigate('/2025');
-
-
-			import(`./theme/${year}.scss`)
-				.then(() => {
-					console.log(`${year}.scss loaded`);
-				})
-				.catch(() => {
-					console.warn(`${year}.scss가 loading failed`);
-				});
+			window.location.href = `/2025`;
+			
 		}
 		else {
 
