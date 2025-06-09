@@ -16,18 +16,31 @@ function App() {
 
 	
 	useEffect(() => {
-		if (year == undefined) {
+		console.log(year);
+		if (year === undefined) {
 			// should change to the current year
 			navigate('/2025');
+
+
+			import(`./theme/${year}.scss`)
+				.then(() => {
+					console.log(`${year}.scss loaded`);
+				})
+				.catch(() => {
+					console.warn(`${year}.scss가 loading failed`);
+				});
+		}
+		else {
+
+			import(`./theme/${year}.scss`)
+				.then(() => {
+					console.log(`${year}.scss loaded`);
+				})
+				.catch(() => {
+					console.warn(`${year}.scss가 loading failed`);
+				});
 		}
 
-		import(`./theme/${year}.scss`)
-			.then(() => {
-				console.log(`${year}.scss loaded`);
-			})
-			.catch(() => {
-				console.warn(`${year}.scss가 loading failed`);
-			});
 	});
 
 
