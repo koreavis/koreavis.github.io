@@ -19,7 +19,8 @@ function App() {
 		console.log(year);
 		if (year !== "2024" && year !== "2025") {
 			// should change to the current year
-			window.location.href = `/2025`;
+			navigate('/2025');
+			return;
 			
 		}
 		else {
@@ -39,7 +40,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-			{year === undefined ? <h1>Redirecting...</h1> : <div>
+			{year !== "2024" && year !== "2025" ? <h1>Redirecting...</h1> : <div>
 				<Title year={year}/>
 				<Invitation year={year}/>
 				<Contents year={year}/>
