@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@0,100..900;1,100..900&display=swap');
+
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 
@@ -20,7 +22,7 @@ $breakpoint-desktop: 1800px;
 
 body {
 	// use Quicksand for english and pretendard for korean
-	font-family: 'Quicksand', 'Pretendard', sans-serif;
+
 
 	margin: auto;
 	background-color: #ffffff;
@@ -76,18 +78,29 @@ body {
 	}
 }
 
+h1 {
+	font-family: 'Quicksand', sans-serif;
+}
+
 h2 {
+	font-family: 'Quicksand', sans-serif;
 	font-weight: $medium;
 }
 
 
 h3 {
+	font-family: 'Quicksand', sans-serif;
 	font-weight: $medium;
 	margin-top: 1.5rem;
 }
 
 h4 { 
+	font-family: 'Open Sans', sans-serif;
 	font-weight: $medium;	
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
 }
 
 .titleWrapper {
