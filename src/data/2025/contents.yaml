@@ -2,22 +2,22 @@
 - title: Opening Remarks and Greetings
   presenter: Sungahn Ko
   presenter_affiliation: POSTECH
-  # start: TBA
-  # end: TBA
-# - title: Workshop Introduction
-#   presenter: Hyeon Jeon
-#   presenter_affiliation: Seoul National University
-#   start: "1:05 pm"
-#   end: "1:10 pm"
+  start: "1:00 pm"
+  end: "1:05 pm"
+- title: Workshop Introduction
+  # presenter: Hyeon Jeon
+  # presenter_affiliation: Seoul National University
+  start: "1:05 pm"
+  end: "1:10 pm"
 - title: Keynote
-  presenter: TBA
-  # presenter_affiliation: TBA
-  # start: "1:10 pm"
-  # end: "2:10 pm"
-  # talk_title: Visual Analytics for Responsible Development of LLMs
-  # talk_abstract: "How can visual analytics help practitioners develop large language models (LLMs) more responsibly? While large tech companies invest heavily in LLMs, such as GPT and Gemini, ensuring these models do not produce unsafe, biased, or problematic outputs remains a significant challenge. In this talk, I will discuss how visual analytics can help address these problems, drawing from my experience working with teams at Google. I will reflect on the role of visualization researchers in AI development and outline future research directions to interactively enhance the quality of text and multimodal datasets."
-  # talk_bio: "Minsuk Kahng is a Senior Research Scientist at Google in the People + AI Research (PAIR) team. His research focuses on empowering researchers and practitioners to responsibly develop AI systems through interactive data visualization. His work has led to deployed technologies (e.g., LLM Comparator for Google, ActiVis for Facebook) and been recognized by prestigious awards (e.g., Google PhD Fellowship, NSF Graduate Research Fellowship). Prior to Google, he was an Assistant Professor at Oregon State University. He received his Ph.D. from Georgia Tech with a Dissertation Award and received his Master's and Bachelor's degrees from Seoul National University. Website: https://minsuk.com"
-  # talk_speaker_image: "./assets/imgs/minsuk.jpg"
+  presenter: Dae Hyun Kim
+  presenter_affiliation: Yonsei University
+  start: "1:10 pm"
+  end: "2:10 pm"
+  talk_title: TBA
+  talk_abstract: "TBA"
+  talk_bio: "TBA"
+  talk_speaker_image: "./assets/imgs/dhkim.jpg"
 - title: "Paper Presentations"
   presenter: TBA
   # presenter_affiliation: "UNIST"
@@ -92,7 +92,7 @@
 - title: Poster Session & Networking
   presenter: TBA
 - title: Banquet
-  presenter: TBA
-  # presenter_affiliation: Computer Research Institute
-  # start: "6:05 pm"
-  # end: "8:00 pm"
+  presenter: Grand Ballroom, 2nd floor
+  presenter_affiliation: POSCO International Center (포스코국제관 2층 그랜드볼룸)
+  start: "6:00 pm"
+  end: "8:00 pm"
