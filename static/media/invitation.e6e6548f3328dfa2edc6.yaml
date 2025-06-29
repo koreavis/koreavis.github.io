@@ -1,0 +1,11 @@
+opening: Welcome to K-VIS 2025!!
+message: The 3rd Korea Visualization Workshop (2025 K‑VIS) will be held at POSTECH (Pohang, Korea) on Friday, July 11, 2025. This workshop offers a unique opportunity for in‑person exchange among data visualization researchers from Korea and East Asia, providing a forum to share insights on the latest trends in the field.  The program features a <b>keynote by Dae Hyun Kim</b> and showcases <b>12 papers presented across three sessions</b>. This year, we also have remote presentations from international researchers, who will join us online to share their work. We warmly invite everyone interested in visualization research to join us in this event, and we look forward to your participation!
+links:
+  - title: "Registration"
+    holder: "Click here to register"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLScGgXiVhrdX13OiCWsLiajU1i8aQ2MiS4Zvpe_lgBK7vI7IjA/viewform"
+    description: We warmly welcome everyone who are interested in data visualization research. The registration will be closed on July 4th, 2025.
+  # - title: "Call for presentations"
+    # holder: "Click here to present at K-VIS"
+    # link: "https://docs.google.com/forms/d/e/1FAIpQLSd29f4PLouxn2rp5KplLqn0p5Lw_rK4o_LISLrrF4bknL3CAQ/viewform?usp=dialog"
+    # description: If you have publications that have been or will be presented at international conferences in 2025, or have work-in-progress project that you want to present, we encourage you to apply for presentations (oral or poster) at K‑VIS this year. The organizers will follow up with detailed presentation guidelines and will make every effort to feature all submissions.

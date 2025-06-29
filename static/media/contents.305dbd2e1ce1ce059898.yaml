@@ -1,0 +1,90 @@
+# title, presenter, presenter_affiliation,start, end --> these fields are mandatory
+- title: Opening Remarks and Greetings
+  presenter: Sungahn Ko
+  presenter_affiliation: POSTECH
+  start: "1:00 pm"
+  end: "1:05 pm"
+- title: Workshop Introduction
+  presenter: Hyunwook Lee
+  presenter_affiliation: POSTECH
+  start: "1:05 pm"
+  end: "1:10 pm"
+- title: Keynote
+  presenter: Dae Hyun Kim, Ph.D.
+  presenter_affiliation: Yonsei University
+  start: "1:10 pm"
+  end: "2:00 pm"
+  talk_title: TBA
+  talk_abstract: "TBA"
+  talk_bio: "TBA"
+  talk_speaker_image: "./assets/imgs/dhkim.jpg"
+- title: "Paper Session 1: Data Representations and Transformations"
+  presenter: "Session chair: Sungbok Shin"
+  presenter_affiliation: "INRIA, Université Paris-Saclay"
+  start: "2:30 pm"
+  end: "3:30 pm"
+  papers:
+  - title: "TactualPlot: Spatializing Data as Sound Using Sensory Substitution for Touchscreen Accessibility"
+    authors: "Pramod Chundury, Yasmin Reyazuddin, J Bern Jordan, Jonathan Lazar, and Niklas Elmqvist"
+    presenter: Pramod Chundury (Remote)
+    presenter_affiliation: University of Maryland, College Park
+  - title: "Revisiting Map Projections for Geospatial Data Analysis: Task Taxonomy, Empirical Study, and Guideline"
+    authors: "Min Hyeong Kim, Seokweon Jung, Hyeon Jeon, and Jinwook Seo"
+    presenter: Min Hyeong Kim
+    presenter_affiliation: Seoul National University
+  - title: "MC-INR: Efficient Encoding of Multivariate Scientific Simulation Data using Meta-Learning and Clustered Implicit Neural Representations"
+    authors: "Hyunsoo Son, Jeonghyun Noh, Suemin Jeon, Chaoli Wang, and Won-Ki Jeong"
+    presenter: Hyunsoo Son
+    presenter_affiliation: Korea University
+  - title: "GhostUMAP2: Measuring and Analyzing (r,d)-Stability of UMAP"
+    authors: "Myeongwon Jung, Takanori Fujiwara, and Jaemin Jo"
+    presenter: Myeongwon Jung
+    presenter_affiliation: Sungkyunkwan University
+  - title: "Metric Design != Metric Behavior: Improving Metric Selection for the Unbiased Evaluation of Dimensionality Reduction"
+    authors: "Jiyeon Bae, Hyeon Jeon, and Jinwook Seo"
+    presenter: Jiyeon Bae
+    presenter_affiliation: Seoul National University
+  - title: "Stop Misusing t-SNE and UMAP for Visual Analytics"
+    authors: "Hyeon Jeon, Jeongin Park, Sungbok Shin, and Jinwook Seo"
+    presenter: Hyeon Jeon
+    presenter_affiliation: Seoul National University
+- title: "Session 2: Session 2:Visualization Systems and Design"
+  presenter: "Session chair: Joohee Kim"
+  presenter_affiliation: "UNIST"
+  start: "4:00 pm"
+  end: "5:00 pm"
+  papers:
+  - title: "Reviving Static Charts into Live Charts"
+    authors: "Lu Ying, Yun Wang, Haotian Li, Shuguang Dou, Haidong Zhang, Xinyang Jiang, Huamin Qu, and Yingcai Wu"
+    presenter: Lu Ying (Remote)
+    presenter_affiliation: Zhejiang University
+  - title: "Drillboards: Adaptive Visualization Dashboards for Dynamic Personalization of Visualization Experiences"
+    authors: "Sungbok Shin, Inyoup Na, and Niklas Elmqvist"
+    presenter: Sungbok Shin
+    presenter_affiliation: INRIA, Université Paris-Saclay
+  - title: "Mind the Gap: Investigating Researchers' Data Visualization Practices and LLM Integration for Future-Proof Academic Charting"
+    authors: "Jaeseong Ju, Hyeon Jeon, and Hyunwoo Park"
+    presenter: Jaeseong Ju
+    presenter_affiliation: Seoul National University
+  - title: "DataSentry: Building Missing Data Management System for In-the-Wild Mobile Sensor Data Collection through Multi-Year Iterative Design Approach"
+    authors: "Yugyeong Jung, Hei Yiu Law, Hadong Lee, Junmo Lee, Bongshin Lee, and Uichin Lee"
+    presenter: Yugyeong Jung
+    presenter_affiliation: KAIST
+  - title: "CompText: Bridging Gap Between High-level Visualization Comprehension and Designers' Intent"
+    authors: "Hyunwook Lee, Hyeon Jeon, Tapendra Pandey, Sungbeom Cho, Sungahn Ko, and Ghulam Jilani Quadri"
+    presenter: Hyunwook Lee
+    presenter_affiliation: POSTECH
+  - title: "Unlearning Comparator: A Visual Analytics System for Comparative Evaluation of Machine Unlearning Methods"
+    authors: "Jaeung Lee and Jaemin Jo"
+    presenter: Jaeung Lee
+    presenter_affiliation: Sungkyunkwan University
+- title: Workshop Closing
+  presenter: Hyeon Jeon
+  presenter_affiliation: Seoul National University
+  start: "5:00 pm"
+  end: "5:10 pm"
+- title: Banquet
+  presenter: Grand Ballroom, 2nd floor
+  presenter_affiliation: POSCO International Center (포스코국제관 2층 그랜드볼룸)
+  start: "5:30 pm"
+  end: "7:30 pm"
