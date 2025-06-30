@@ -14,9 +14,9 @@
   presenter_affiliation: Yonsei University
   start: "1:10 pm"
   end: "2:00 pm"
-  talk_title: TBA
-  talk_abstract: "TBA"
-  talk_bio: "TBA"
+  talk_title: "How to (Correctly) Use AI in NL+VIS Communication"
+  talk_abstract: "Communication that combines natural language and data visualizations (NL+VIS) is increasingly common, appearing in news/research articles with charts, dashboards with annotations, and natural language interfaces for visual analytics. With the rapid improvements in the capabilities of AI in comprehending natural language and multimodal content, we have seen the growing adoption of AI in NL+VIS communication. In this talk. I will explore two two key roles that AI can play in this space: (1) a facilitator of NL+VIS communication between humans and (2) an interactive system that itself communicates with users using NL+VIS. Drawing on insights from a series of NL+VIS projects, I will outline design guidelines for effectively incorporating AI into NL+VIS communication."
+  talk_bio: "Dae Hyun Kim is an Assistant Professor in the Department of Computer Science and Engineering at Yonsei University. Prior to joining Yonsei, he was a postdoctoral scholar at KAIST, working with Juho Kim. He received his MS and PhD in Computer Science from Stanford University, and his BS in Computer Science from the California Institute of Technology. His research focuses on developing natural language tools to support human-human and human-AI communication and collaboration."
   talk_speaker_image: "./assets/imgs/dhkim.jpg"
 - title: "Paper Session 1: Data Representations and Transformations"
   presenter: "Session chair: Sungbok Shin"
