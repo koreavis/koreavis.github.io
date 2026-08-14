@@ -8,9 +8,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function RedirectToCurrent() {
 	useEffect(() => {
-		window.location.href = '/2025';
+		window.location.replace('/2026');
 	}, []);
-	return <h1>Redirecting to 2025...</h1>;
+	return <h1>Redirecting to 2026...</h1>;
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

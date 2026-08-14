@@ -17,9 +17,14 @@ function App() {
 	
 	useEffect(() => {
 		console.log(year);
+		if (year === "2026") {
+			window.location.replace('https://reflect9.github.io/kvis2026/');
+			return;
+		}
+
 		if (year !== "2024" && year !== "2025") {
 			// should change to the current year
-			navigate('/2025');
+			navigate('/2026');
 			return;
 			
 		}
