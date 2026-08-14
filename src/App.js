@@ -24,7 +24,7 @@ function App() {
 
 		if (year !== "2024" && year !== "2025") {
 			// should change to the current year
-			navigate('/2025');
+			navigate('/2026');
 			return;
 			
 		}
